@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Parisienne');
+
+@import url('https://fonts.googleapis.com/css?family=Zeyada&display=swap');
+
+
+body {
+    font-family: 'Zeyada', cursive;
+    color: #666666;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+p {
+    font-family: 'Zeyada', cursive;
+    font-size: 24px;
+}
+
+
+
+.adjust-tiny {
+    display: none;
+}
+
+@media all and (max-width:800px) {
+    .adjust-tiny {
+        display: initial;
+    }
+}
+
+.signature {
+    color: black !important;
+}
+
+.home-sub {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.linkmail {
+    font-size: 24px !important;
+}
+
+/*Tabs Materialize - Custom Background Color While Active*/
+
+.tabs .indicator {
+    background-color: #64b5f6 !important;
+}
+
+.tabs .tab a:focus.active {
+    background-color: rgba(135, 206, 235, 0.25) !important;
+    transition: 1s;
+}
+
+/*Navbar effect 1 Bounce text*/
+
+.bounce-text {
+    display: inline-block;
+    transition: 0.5s;
+}
+
+.bounce-text:hover {
+    animation-name: bounce-text;
+    animation-duration: 1.2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+}
+
+@keyframes bounce-text {
+    16.65% {
+        transform: translateX(8px);
+    }
+
+    33.3% {
+        transform: translateX(-6px);
+    }
+
+    49.95% {
+        transform: translateX(4px);
+    }
+
+    66.6% {
+        transform: translateX(-2px);
+    }
+
+    83.25% {
+        transform: translateX(1px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+/*Navbar effect 2 Hover underline*/
+
+.effet-plus {
+    display: inline-block;
+    text-decoration: none;
+    background-image: linear-gradient(white, white);
+    background-size: 0px 2px, auto;
+    background-repeat: no-repeat;
+    background-position: center 80%;
+    transition: all .2s ease-out;
+}
+
+.effet-plus:hover {
+    background-size: 80% 1px, auto;
+}
+
+
+#chapter-title {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.75);
+    text-align: center;
+}
+
+#chapter-title2 {
+    font-size: 34px;
+    color: black;
+}
+
+@media all and (max-width:500px) {
+    #chapter-title2 {
+        font-size: 26px;
+    }
+}
+
+@media all and (max-width:330px) {
+    #chapter-title2 {
+        font-size: 24px;
+    }
+}
+
+input[type=text] {}
+
+input[type=email] {}
+
+input[type=password] {}
+
+#form-comment {
+    width: 45%;
+    margin: auto;
+}
+
+@media all and (max-width:800px) {
+    #form-comment {
+        width: 90%;
+    }
+}
+
+#chapter-link {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+#result-comment {
+    width: 60%;
+    margin: auto;
+}
+
+.chapter-part2 {
+    background-color: #f0f0f0;
+    margin-bottom: -45px;
+}
+
+#ghost0 {
+    width: 50%;
+    margin: auto;
+    font-family: 'Zeyada', cursive;
+}
+
+@media all and (max-width:800px) {
+    #ghost0 {
+        width: 90%;
+    }
+}
+
+#ghost {
+    border-radius: 5px;
+}
+
+#ghost1 {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+@media all and (max-width:800px) {
+    #ghost1 {
+        width: 90%;
+    }
+}
+
+#ghost2 {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+@media all and (max-width:800px) {
+    #ghost2 {
+        width: 90%;
+    }
+}
+
+#ghost3 {
+    position: absolute;
+    top: -24px;
+    left: 11px;
+}
+
+#ghost4 {
+    position: absolute;
+    top: -24px;
+    left: 11px;
+}
+
+.card-reveal {
+    text-align: center;
+}
+
+#errors {
+    text-align: center;
+    margin-top: 250px;
+}
+
+.adjust-buttons {
+    height: 5px;
+}
+
+.center-menu {
+    margin-top: 30px !important;
+    width: 93%;
+    margin: auto;
+}
+
+@media all and (max-width:600px) {
+    .center-menu {
+        margin-bottom: 70px !important;
+        margin-left: 20px;
+    }
+}
+
+#title-menu {
+    font-size: 22px !important;
+}
+
+.centered {
+    width: 100%;
+    text-align: center;
+}
+
+/*Pour régler la police du formulaire page d'accueil*/
+#content {
+    border-radius: 10px;
+    height: 150px;
+    outline: none;
+    font-size: 16px;
+    padding: 15px;
+}
+
+#comment {
+    border-radius: 20px;
+    height: 150px;
+    outline: none;
+    font-size: 16px;
+    padding: 15px;
+}
+
+button[type=submit] {
+    font-family: 'Zeyada', cursive;
+    font-size: 18px;
+}
+
+/*Pour régler la taille des cards reveal en Back Office*/
+
+#admin-size-1 {
+    width: 60%;
+    margin: auto;
+}
+
+@media all and (max-width:800px) {
+    #admin-size-1 {
+        width: 90%;
+    }
+}
+
+#admin-size-2 {
+    width: 60%;
+    margin: auto;
+}
+
+@media all and (max-width:800px) {
+    #admin-size-2 {
+        width: 90%;
+    }
+}
+
+#admin-size-3 {
+    width: 60%;
+    margin: auto;
+}
+
+@media all and (max-width:800px) {
+    #admin-size-3 {
+        width: 90%;
+    }
+}
+
+#admin-size-4 {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+@media all and (max-width:800px) {
+    #admin-size-4 {
+        width: 90%;
+    }
+}
+
+#admin-size-5 {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+@media all and (max-width:800px) {
+    #admin-size-5 {
+        width: 90%;
+    }
+}
+
+#admin-text1 {
+    font-size: 28px;
+    color: #039be5;
+}
+
+@media all and (max-width:800px) {
+    #admin-text1 {}
+}
+
+#admin-text2 {
+    font-size: 20px;
+}
+
+@media all and (max-width:800px) {
+    #admin-text2 {}
+}
+
+#admin-text3 {
+    font-size: 20px;
+}
+
+@media all and (max-width:800px) {
+    #admin-text3 {}
+}
+
+/*Effet parallaxe en page d'accueil*/
+.parallax {}
+
+.brand-logo {
+    margin-top: -20px;
+}
+
+@media all and (min-width:993px) {
+    .brand-logo {
+        margin-left: 60px;
+    }
+}
+
+.fa-feather-alt {
+    color: white;
+    font-size: 24px;
+}
+
+.feather-logo {
+    position: fixed;
+    z-index: 1000;
+    top: 15px;
+    left: 25px;
+
+}
+
+@media all and (max-width:992px) {
+    .feather-logo {
+        left: 93%;
+    }
+}
+
+@media all and (max-width:500px) {
+    .feather-logo {
+        left: 90%;
+    }
+}
+
+h1 {
+    font-size: 28px !important;
+
+}
+
+@media all and (max-width:992px) {
+    h1 {
+        font-size: 24px !important;
+    }
+}
+
+@media all and (max-width:450px) {
+    h1 {
+        font-size: 18px !important;
+    }
+}
+
+@media all and (max-width:350px) {
+    h1 {
+        font-size: 17px !important;
+    }
+}
+
+li {
+    font-size: 18px !important;
+}
+
+a {
+    font-size: 18px !important;
+}
+
+#bar-text a {
+    font-size: 22px !important;
+}
+
+
