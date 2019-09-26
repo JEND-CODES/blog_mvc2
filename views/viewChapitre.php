@@ -13,7 +13,16 @@ $nav_title = $chapter->title();
         <img src="<?php echo $dir."/".$random_img ?>" alt="illustration" title="illustration">
 
         <div id="chapter-title">
-            <p id="chapter-title2">Chapitre <?= $chapter->chapi() ?> : <?= $chapter->title() ?></p>
+            <p id="chapter-title2">Chapitre 
+                <?= 
+    // Affichage du numéro de chapitre
+    $chapter->chapi() 
+    
+                ?> : <?= 
+    // Affichage du titre du chapitre
+    $chapter->title() 
+    
+                ?></p>
         </div>
 
     </div>
@@ -22,7 +31,12 @@ $nav_title = $chapter->title();
 <div class="section white">
     <div class="row container">
 
-        <p><?= $chapter->content() ?></p>
+        <p>
+            <?= 
+    // Affichage du texte du chapitre
+    $chapter->content() 
+    
+            ?></p>
         
         <br>
         
