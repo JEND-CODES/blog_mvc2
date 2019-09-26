@@ -2,3 +2,5 @@ Evolutions du projet :
 -> Affchage des vues
 -> Déploiement des controllers
 -> Models -> classes Chapitre et Commentaires
+-> Instanciation des Models dans les fichiers Repositories
+-> Annotations sur les fonctionnalités des Controllers
