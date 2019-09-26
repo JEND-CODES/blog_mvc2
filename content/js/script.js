@@ -1,3 +1,5 @@
+//Fonctionnalités JS du framework Materialize 
+
 $(document).ready(function () {
     //Materialize animations
     $('.sidenav').sidenav();
