@@ -4,3 +4,4 @@ Evolutions du projet :
 -> Models -> classes Chapitre et Commentaires
 -> Instanciation des Models dans les fichiers Repositories
 -> Annotations sur les fonctionnalités des Controllers
+-> Fonctionnalités JS du framework Materialize
