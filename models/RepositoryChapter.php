@@ -30,6 +30,7 @@ class RepositoryChapter
         { 
             // PDO::FETCH_ASSOC -> Chaque entrée sera récupérée et placée dans un array
             
+            // Appel du Modèle Chapter.php
             $chapters[] = new Chapter($data);
         }
 
