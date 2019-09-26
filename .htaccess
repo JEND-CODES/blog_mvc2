@@ -2,6 +2,7 @@ Options -Multiviews
 Options All -Indexes
 Options +FollowSymlinks
 
+# Autorisation aux redirections
 RewriteEngine on
 
 RewriteCond %{REQUEST_FILENAME} !-d
