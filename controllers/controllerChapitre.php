@@ -9,6 +9,7 @@ else
     
     $id = htmlentities($id);
     
+    // Instanciation
     // Appel du modèle Chapter
     $repositoryChapter = new RepositoryChapter($bdd);
     
@@ -22,6 +23,7 @@ else
         $errors = array();
         //Le tableau $errors doit rester vide pour valider le formulaire 
         
+        // Sécurisation
         // Empêcher les attaques XSS. Utiliser la fonction plus approprié htmlentities()
         $pseudo = htmlentities($pseudo);
     
@@ -29,6 +31,7 @@ else
     
         $comment = htmlentities($comment);
         
+        // Messages d'erreurs
         if(empty($pseudo))
             array_push($errors, 'Nom manquant');
 
